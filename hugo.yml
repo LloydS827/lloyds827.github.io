@@ -4,6 +4,9 @@ pagination:
   pagerSize: 5
 theme: "PaperMod"
 
+# 添加中文字数统计支持
+hasCJKLanguage: true
+
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -19,6 +22,7 @@ outputs:
 minify:
   disableXML: true
   minifyOutput: true
+
 
 # Markdown 渲染相关配置
 markup:
@@ -48,7 +52,7 @@ params:
     iconHeight: 35
   
   # 显示选项
-  ShowReadingTime: true
+  ShowReadingTime: false
   ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: false
