@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Lloyd&#39;s Blog</title>
-    <link>https://lloyds827.github.io/posts/</link>
+    <link>https://www.cavai.cn/posts/</link>
     <description>Recent content in Posts on Lloyd&#39;s Blog</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <lastBuildDate>Sat, 30 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://lloyds827.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.cavai.cn/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Article</title>
-      <link>https://lloyds827.github.io/posts/first-post/</link>
+      <link>https://www.cavai.cn/posts/first-post/</link>
       <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://lloyds827.github.io/posts/first-post/</guid>
+      <guid>https://www.cavai.cn/posts/first-post/</guid>
       <description>&lt;h2 id=&#34;test-blog&#34;&gt;TEST-Blog&lt;/h2&gt;
 &lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;欢迎来到我的第一篇博客文章！在这篇文章中，我将展示 Hugo PaperMod 主题支持的各种内容格式，包括文本格式化、代码块和数学公式等。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;image&#34; loading=&#34;lazy&#34; src=&#34;https://lloyds827.github.io/posts/first-post/logo.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;image&#34; loading=&#34;lazy&#34; src=&#34;https://www.cavai.cn/posts/first-post/logo.png&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;文本格式示例&#34;&gt;文本格式示例&lt;/h2&gt;
 &lt;p&gt;这是&lt;strong&gt;粗体文本&lt;/strong&gt;，这是&lt;em&gt;斜体文本&lt;/em&gt;，这是&lt;del&gt;删除线文本&lt;/del&gt;，这是&lt;code&gt;行内代码&lt;/code&gt;。&lt;/p&gt;
 &lt;blockquote&gt;
