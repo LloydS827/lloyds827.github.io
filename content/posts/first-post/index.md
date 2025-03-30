@@ -65,42 +65,7 @@ print(fibonacci(10))  # 输出: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
 
 下面是一段 JavaScript 代码示例：
 
-```javascript
-// 使用 Promise 处理异步操作
-function fetchUserData(userId) {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      // 模拟网络请求
-      const users = {
-        1: { id: 1, name: "张三", email: "zhangsan@example.com" },
-        2: { id: 2, name: "李四", email: "lisi@example.com" }
-      };
-      
-      const user = users[userId];
-      
-      if (user) {
-        resolve(user);
-      } else {
-        reject(new Error("用户不存在"));
-      }
-    }, 1000);
-  });
-}
 
-// 使用 async/await 调用
-async function displayUserInfo(userId) {
-  try {
-    console.log("正在获取用户信息...");
-    const user = await fetchUserData(userId);
-    console.log("用户信息:", user);
-  } catch (error) {
-    console.error("获取用户信息失败:", error.message);
-  }
-}
-
-displayUserInfo(1);  // 成功获取
-displayUserInfo(3);  // 失败
-```
 
 ## 数学公式
 
@@ -149,14 +114,3 @@ $$
 | 李四 | 32   | 数据分析师 |
 | 王五 | 45   | 产品经理 |
 
-## 图片示例
-
-如果您的博客中有图片，可以这样插入：
-
-![示例图片](https://via.placeholder.com/800x400)
-
-## 总结
-
-这篇文章展示了在 Hugo PaperMod 主题下，各种内容格式的渲染效果。您可以根据自己的需求，使用这些格式来丰富您的博客内容。
-
-希望这个示例对您有所帮助！如果您有任何问题或建议，欢迎在评论区留言。
