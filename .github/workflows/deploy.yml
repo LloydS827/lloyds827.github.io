@@ -3,7 +3,7 @@ name: Deploy Hugo Blog
 on:
   push:
     branches:
-      - main  # 如果您使用master作为主分支，请修改为master
+      - master  # 如果您使用master作为主分支，请修改为master
 
 jobs:
   deploy:
