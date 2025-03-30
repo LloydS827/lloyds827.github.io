@@ -1,4 +1,4 @@
-baseURL: "/"
+baseURL: "https://lloyds827.github.io/"
 title: "Lloyd's Blog"
 pagination:
   pagerSize: 5
