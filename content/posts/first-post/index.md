@@ -3,8 +3,7 @@ title: "My Test Article"
 date: "2024-03-30"
 ---
 ## TEST-Blog
-This is for rendering-test only
-
+This is for rendering-test only. 
 ![image](logo.png)
 
 ## 文本格式示例
