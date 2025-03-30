@@ -1,13 +1,9 @@
 ---
-title: "My First Article"
+title: "My Test Article"
 date: "2024-03-30"
 ---
 ## TEST-Blog
-
-
-## 引言
-
-欢迎来到我的第一篇博客文章！在这篇文章中，我将展示 Hugo PaperMod 主题支持的各种内容格式，包括文本格式化、代码块和数学公式等。
+This is for rendering-test only
 
 ![image](logo.png)
 
