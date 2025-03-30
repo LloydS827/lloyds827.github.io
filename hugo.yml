@@ -1,0 +1,92 @@
+baseURL: "https://lloyds827.github.io/"
+title: "Lloyd's Blog"
+pagination:
+  pagerSize: 5
+theme: "PaperMod"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+# 为搜索功能添加必要的输出
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # 搜索功能必需
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+# Markdown 渲染相关配置
+markup:
+  goldmark:
+    renderer:
+      unsafe: true  # 允许在 Markdown 中使用 HTML
+  highlight:
+    noClasses: false
+
+params:
+  env: production # 启用 google analytics, opengraph, twitter-cards 和 schema
+  title: "Lloyd's Blog"
+  description: "Lloyd's Blog"
+  keywords: [Blog, 技术, 生活]
+  author: "Lloyd"
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # 自动切换暗/亮模式
+  disableThemeToggle: false
+  
+  # 启用数学公式
+  math: true
+  
+  # logo配置
+  label:
+    text: "Lloyd's Blog"
+    icon: "/logo.png"
+    iconHeight: 35
+  
+  # 显示选项
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: flase
+  showtoc: true
+  tocopen: false
+  
+  # Home-Info Mode 配置
+  homeInfoParams:
+    Title: "Welcome to Lloyd's Blog 👋"
+    Content: "Questions & Problems"
+  
+  # 社交图标（根据需要添加或删除）
+  socialIcons:
+    - name: github
+      url: "https://github.com/lloyds827"
+
+    - name: email
+      url: "mailto:sunguangji827@hotmail.com"
+
+    - name: rss
+      url: "index.xml"
+
+menu:
+  main:
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 10
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 20 
